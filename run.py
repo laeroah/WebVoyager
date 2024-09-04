@@ -36,6 +36,10 @@ def setup_logger(folder_path):
 def driver_config(args):
     options = webdriver.ChromeOptions()
 
+    if args.colab:
+        options.add_argument("--verbose")
+        options.add_argument('--no-sandbox')
+
     if args.save_accessibility_tree:
         args.force_device_scale = True
 
