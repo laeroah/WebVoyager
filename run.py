@@ -247,6 +247,8 @@ def main():
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--download_dir", type=str, default="downloads")
     parser.add_argument("--text_only", action='store_true')
+    # for colab
+    parser.add_argument("--colab", action='store_true')
     # for web browser
     parser.add_argument("--headless", action='store_true', help='The window of selenium')
     parser.add_argument("--save_accessibility_tree", action='store_true')
