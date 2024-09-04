@@ -1,1 +1,1 @@
-{"web_name": "Expedia", "id": "Expedia--1", "ques": "On Expdia homepage, in 'Where to?' input box, search for Resorts World Catskills Casino hotel. Tell me the price.", "web": "https://www.expedia.com/"}
+{"web_name": "Expedia", "id": "Expedia--1", "ques": "On Expdia homepage, in 'Where to?' input box, search for Resorts World Catskills Casino hotel. Click on the Search button. Wait for the result. In the result page, look for Resorts World Catskills Casino hotel and tell me the price.", "web": "https://www.expedia.com/"}
