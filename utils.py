@@ -332,6 +332,7 @@ def print_message(json_object, save_dir=None):
 
 def get_webarena_accessibility_tree(browser, save_file=None):
     browser_info = fetch_browser_info(browser)
+    # accessibility_tree = fetch_page_accessibility_tree(browser_info, browser, current_viewport_only=True)
     accessibility_tree = fetch_page_accessibility_tree(browser_info, browser, current_viewport_only=False)
     content, obs_nodes_info = parse_accessibility_tree(accessibility_tree)
     content = clean_accesibility_tree(content)
